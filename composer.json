@@ -1,0 +1,21 @@
+{
+    "name": "alexvannorsdall/interest-account",
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "guzzlehttp/guzzle": "^7.7",
+        "phpunit/phpunit": "^10.3",
+      "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "InterestAccount\\": "src/",
+            "InterestAccount\\Tests\\": "Tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandria Vannorsdall",
+            "email": "arvannorsdall@yahoo.com"
+        }
+    ]
+}
